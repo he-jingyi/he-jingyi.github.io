@@ -100,7 +100,7 @@ export default function Home() {
               </p>
               <p>
                 My research interests include, but are not limited to, the interpretability of
-                large language models (LLMs) and LLM agents.
+                large language models (LLMs), LLM agents, and post-training alignment.
               </p>
               <p>
                 I&apos;m always open to discussions. Feel free to reach out via email at
