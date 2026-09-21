@@ -1,7 +1,7 @@
 import PrismNavigation from "./PrismNavigation";
 
 const honorsAndAwards = [
-  "Academician Chen Yazhu Scholarship (Top 10%, 2025).",
+  "Academician Chen Yazhu Scholarship (2025).",
   "National 3rd Prize in the National Undergraduate Biomedical Engineering Innovation Design Competition (2025).",
   "2nd Prize in the Contemporary Undergraduate Mathematical Contest in Modeling (Shanghai Region) (2024).",
   "Class C Excellent Undergraduate Scholarship (2024).",
