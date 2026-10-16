@@ -9,6 +9,17 @@ const honorsAndAwards = [
 
 const publications = [
   {
+    venue: "arXiv preprint · 2026",
+    badge: "arXiv 2026",
+    title: "RewardExplainer: Learning Reward Model Explanations from Counterfactual Preference Feedback",
+    authors: ["Jingyi He", "Nier Wu", "Shuang Liu", "Xin Wang", "Mengnan Du", "Xia Hu"],
+    equalContribution: [],
+    correspondingAuthors: ["Mengnan Du"],
+    image: "/papers/rewardexplainer-framework.png",
+    imageAlt: "Overall framework of RewardExplainer",
+    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2609.33989" }],
+  },
+  {
     venue: "EMNLP · 2026",
     badge: "EMNLP 2026",
     title: "SAEExplainer: Interpreting SAE Features with Activation-Guided Preference Optimization",
@@ -124,7 +135,7 @@ export default function Home() {
           <section className="content-block" id="publications" aria-labelledby="publications-heading">
             <div className="section-title-row">
               <h2 id="publications-heading">Selected Publications</h2>
-              <span>3 papers</span>
+              <span>4 papers</span>
             </div>
             <div className="publication-stack">
               {publications.map((publication) => (
@@ -216,7 +227,7 @@ export default function Home() {
       </div>
 
       <footer className="prism-footer">
-        <p>© 2026 Jingyi He · Last updated August 2026</p>
+        <p>© 2026 Jingyi He · Last updated October 2026</p>
         <p>
           <a href="https://github.com/xyjoey/PRISM" target="_blank" rel="noreferrer">
             Built with PRISM
