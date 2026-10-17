@@ -7,7 +7,7 @@ const links = [
   { label: "News", href: "#news" },
   { label: "Publications", href: "#publications" },
   { label: "Service", href: "#academic-service" },
-  { label: "Experience", href: "#experience" },
+  { label: "Education", href: "#education" },
   { label: "Honors", href: "#honors-awards" },
 ];
 

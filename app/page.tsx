@@ -59,13 +59,18 @@ const academicService = [
   "Reviewer of TMLR 2026.",
 ];
 
-const experience = [
+const education = [
   {
     period: "2023–Now",
-    degree: "B.Eng. at",
+    degree: "B.Eng. in Biomedical Engineering",
     institution: "Shanghai Jiao Tong University",
+    abbreviation: "SJTU",
     institutionUrl: "https://www.sjtu.edu.cn/",
-    location: "Shanghai, China.",
+    localName: "上海交通大学",
+    program: "Biomedical Engineering",
+    location: "Shanghai, China",
+    logo: "/sjtu-logo.svg",
+    logoAlt: "Shanghai Jiao Tong University emblem",
   },
 ];
 
@@ -199,19 +204,33 @@ export default function Home() {
             </ul>
           </section>
 
-          <section className="content-block" id="experience" aria-labelledby="experience-heading">
-            <h2 id="experience-heading">Experience</h2>
-            <div className="experience-list">
-              {experience.map((item) => (
-                <article className="experience-row" key={`${item.period}-${item.institution}`}>
-                  <p className="period">{item.period}</p>
-                  <h3>
-                    {item.degree}{" "}
-                    <a href={item.institutionUrl} target="_blank" rel="noreferrer">
-                      {item.institution}
-                    </a>
-                    , {item.location}
-                  </h3>
+          <section className="content-block" id="education" aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            <div className="education-list">
+              {education.map((item) => (
+                <article className="education-row" key={`${item.period}-${item.institution}`}>
+                  <img
+                    className="education-logo"
+                    src={item.logo}
+                    alt={item.logoAlt}
+                    width="56"
+                    height="56"
+                    loading="lazy"
+                  />
+                  <div className="education-copy">
+                    <h3>
+                      <a href={item.institutionUrl} target="_blank" rel="noreferrer">
+                        {item.institution}
+                      </a>
+                      <span className="education-abbreviation">({item.abbreviation})</span>
+                    </h3>
+                    <p className="education-subtitle">{item.localName} · {item.program}</p>
+                    <p className="education-degree">{item.degree}</p>
+                  </div>
+                  <div className="education-meta">
+                    <p className="education-period">{item.period}</p>
+                    <p className="education-location">{item.location}</p>
+                  </div>
                 </article>
               ))}
             </div>
