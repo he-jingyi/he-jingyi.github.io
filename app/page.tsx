@@ -142,6 +142,7 @@ export default function Home() {
                 My research interests include, but are not limited to, the interpretability of
                 large language models (LLMs), LLM agents, and post-training alignment.
               </p>
+              <p>I am currently applying to Ph.D. programs for Fall 2027 admission.</p>
               <p>
                 I&apos;m always open to discussions. Feel free to reach out via email at
                 {" "}<a href="mailto:sunrain-H@sjtu.edu.cn">sunrain-H@sjtu.edu.cn</a> if you&apos;d like to connect!
