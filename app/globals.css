@@ -2,8 +2,8 @@
 
 :root,
 :root[data-theme="light"] {
-  --font-display: "Merriweather";
-  --font-body: "Karla";
+  --font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
   --background: #fefffe;
   --foreground: #0f172a;
   --primary: #18243a;
@@ -41,7 +41,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-body), sans-serif; font-optical-sizing: auto; line-height: 1.58; transition: background-color 180ms ease, color 180ms ease; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-body); line-height: 1.62; transition: background-color 180ms ease, color 180ms ease; }
 a { color: inherit; text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 5px; }
 button { font: inherit; }
@@ -52,7 +52,7 @@ section[id] { scroll-margin-top: 108px; }
 
 .prism-nav { position: sticky; top: 0; z-index: 50; border-bottom: 1px solid var(--border); background: var(--nav-bg); backdrop-filter: blur(18px); }
 .nav-inner { position: relative; width: min(1120px, calc(100% - 40px)); min-height: 78px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
-.site-title { min-height: 44px; display: inline-flex; align-items: center; flex: 0 0 auto; color: var(--primary); font-family: var(--font-display), Georgia, serif; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.018em; }
+.site-title { min-height: 44px; display: inline-flex; align-items: center; flex: 0 0 auto; color: var(--primary); font-family: var(--font-display); font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; }
 .nav-panel { margin-left: auto; }
 .nav-links { display: flex; align-items: center; gap: 5px; }
 .nav-links a { min-height: 44px; padding: 0 13px; display: inline-flex; align-items: center; border-radius: 10px; color: var(--neutral-600); font-size: 0.84rem; font-weight: 600; transition: background-color 180ms ease, color 180ms ease; }
@@ -70,14 +70,14 @@ section[id] { scroll-margin-top: 108px; }
 .portrait { width: min(100%, 270px); aspect-ratio: 1; margin: 0 auto 25px; overflow: hidden; border: 1px solid var(--border); border-radius: 18px; background: var(--neutral-100); box-shadow: var(--shadow); }
 .portrait img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
 .identity { text-align: center; }
-.identity h1 { margin: 0 0 7px; color: var(--primary); font-family: var(--font-display), Georgia, serif; font-size: 2.08rem; font-weight: 700; letter-spacing: -0.025em; line-height: 1.12; }
+.identity h1 { margin: 0 0 7px; color: var(--primary); font-family: var(--font-display); font-size: 2.08rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.12; }
 .identity p { margin: 0; }
 .role { color: var(--accent); font-size: 1.05rem; font-weight: 600; }
 .institution { margin-top: 5px !important; color: var(--neutral-600); font-size: 0.92rem; }
 
 .main-column { display: grid; gap: 44px; animation: rise 560ms 100ms ease both; }
 .content-block { padding-bottom: 3px; }
-.content-block h2 { margin: 0 0 18px; color: var(--primary); font-family: var(--font-display), Georgia, serif; font-size: 1.82rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; }
+.content-block h2 { margin: 0 0 18px; color: var(--primary); font-family: var(--font-display); font-size: 1.82rem; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; }
 .prose { color: var(--neutral-700); font-size: 0.99rem; line-height: 1.72; }
 .prose p { margin: 0 0 18px; }
 .prose a, .section-title-row > span { color: var(--accent-dark); font-weight: 600; }
@@ -93,7 +93,7 @@ section[id] { scroll-margin-top: 108px; }
 .publication-badge { position: absolute; top: 11px; left: -9px; min-width: 100px; padding: 7px 13px; border-radius: 2px 5px 5px 2px; background: #123f93; box-shadow: 0 5px 12px rgba(18,63,147,0.2); color: #fff; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.035em; text-align: center; white-space: nowrap; }
 .publication-badge::after { content: ""; position: absolute; left: 0; bottom: -7px; border-top: 7px solid #0a2b69; border-left: 8px solid transparent; }
 .publication-copy { min-width: 0; }
-.publication-card h3 { margin: 0 0 10px; color: var(--primary); font-family: var(--font-display), Georgia, serif; font-size: 0.98rem; font-weight: 700; letter-spacing: -0.012em; line-height: 1.48; }
+.publication-card h3 { margin: 0 0 10px; color: var(--primary); font-family: var(--font-display); font-size: 0.98rem; font-weight: 700; letter-spacing: -0.006em; line-height: 1.48; }
 .publication-card h3 a { text-decoration: underline; text-decoration-color: rgba(201,151,79,0.5); text-decoration-thickness: 1px; text-underline-offset: 4px; transition: color 180ms ease, text-decoration-color 180ms ease; }
 .publication-card h3 a:hover { color: var(--accent-dark); text-decoration-color: var(--accent-dark); }
 .publication-card p { margin: 0; }
@@ -117,7 +117,7 @@ section[id] { scroll-margin-top: 108px; }
 .experience-list, .news-list { border-top: 1px solid var(--border); }
 .experience-row { display: grid; grid-template-columns: 128px 1fr; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--border); }
 .period { margin: 2px 0 0; color: var(--accent-dark); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
-.experience-row h3 { margin: 0; color: var(--primary); font-family: var(--font-display), Georgia, serif; font-size: 1rem; font-weight: 700; line-height: 1.52; }
+.experience-row h3 { margin: 0; color: var(--primary); font-family: var(--font-display); font-size: 1rem; font-weight: 700; line-height: 1.52; }
 .experience-row h3 a { text-decoration: underline; text-decoration-color: rgba(201,151,79,0.52); text-decoration-thickness: 1px; text-underline-offset: 4px; transition: color 180ms ease, text-decoration-color 180ms ease; }
 .experience-row h3 a:hover { color: var(--accent-dark); text-decoration-color: var(--accent-dark); }
 .news-row { display: grid; grid-template-columns: 84px 1fr; gap: 20px; padding: 13px 0; border-bottom: 1px solid var(--border); }
