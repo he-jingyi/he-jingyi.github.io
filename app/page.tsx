@@ -101,6 +101,30 @@ export default function Home() {
             <h1>Jingyi He</h1>
             <p className="role">Undergraduate</p>
             <p className="institution">Shanghai Jiao Tong University</p>
+            <nav className="profile-links" aria-label="Academic and social profiles">
+              <a
+                className="profile-link"
+                href="https://scholar.google.com/citations?hl=zh-CN&user=fLiiflgAAAAJ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3 2 8l10 5 8-4v6h2V8L12 3Zm-6 8.6V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.4l-6 3-6-3Z" />
+                </svg>
+                <span>Google Scholar</span>
+              </a>
+              <a
+                className="profile-link"
+                href="https://github.com/he-jingyi"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.88c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0 1 12 6.82c.85 0 1.71.12 2.51.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2Z" />
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </nav>
           </div>
         </aside>
 
