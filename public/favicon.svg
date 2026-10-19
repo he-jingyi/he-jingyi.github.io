@@ -1,7 +1,11 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <title>Jingyi He</title>
+  <title>Jingyi He research spark</title>
   <rect x="2" y="2" width="60" height="60" rx="15" fill="#18243A"/>
   <path d="M2 17C2 8.716 8.716 2 17 2H47C55.284 2 62 8.716 62 17V22L2 48V17Z" fill="#22324F"/>
-  <path d="M11 14H29V37.5C29 46.5 24.1 51 16.1 51C11.8 51 8.4 49.5 6 46.7L12 40.7C13.1 42.2 14.5 43 16.1 43C19.2 43 20.5 41.1 20.5 37.5V22H11V14Z" fill="#FFFFFF"/>
-  <path d="M33 14H41.5V28H50V14H58.5V50H50V36H41.5V50H33V14Z" fill="#E4B976"/>
+  <circle cx="16" cy="16" r="4" fill="#FFFFFF"/>
+  <circle cx="48" cy="16" r="4" fill="#FFFFFF"/>
+  <circle cx="16" cy="48" r="4" fill="#FFFFFF"/>
+  <circle cx="48" cy="48" r="4" fill="#FFFFFF"/>
+  <path d="M32 11C34.6 23.3 40.7 29.4 53 32C40.7 34.6 34.6 40.7 32 53C29.4 40.7 23.3 34.6 11 32C23.3 29.4 29.4 23.3 32 11Z" fill="#E4B976"/>
+  <circle cx="32" cy="32" r="5" fill="#18243A"/>
 </svg>
